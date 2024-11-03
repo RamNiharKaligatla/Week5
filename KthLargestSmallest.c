@@ -10,7 +10,6 @@ int main()
 	{
         scanf("%d",&a[i]);
     }
-    
     printf("Enter value of k: ");
     scanf("%d", &k);
     for(i=0;i<n-1;i++)
