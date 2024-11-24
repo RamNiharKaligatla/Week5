@@ -24,7 +24,6 @@ int main()
             }
         }
     }
-    printf("%dth smallest is %d and ",k,a[k-1]);
-    printf("%dth largest is %d",k,a[n-k]);
+    printf("%dth smallest is %d and %dth largest is %d",k,a[k-1],k,a[n-k]);
 	return 0;
 }
