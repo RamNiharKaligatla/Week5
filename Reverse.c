@@ -20,9 +20,11 @@ int main()
 		a[i] = a[n - i - 1];
 		a[n - i - 1] = k;
 	}
+
 	for (i = 0; i < n; i++)
 	{
 		printf("%d ", a[i]);
 	}
+	
 	return 0;
 }
